@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: none;
+        }
+        th , td{
+            background-color: none;
+            border-color: chartreuse;
+        }
+        table,th.td{
+            border: 1px solid yellow;
+            border-radius: 10px;
+            border-style: dotted;
+        }
+        th{
+            text-align: right;
+        }
+        th:nth-child(even){
+            background-color: aqua;
+        }
+        tr:nth-child(even){
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width:100%">
+        <caption>datasheet</caption>
+        <tr style="height:200px">
+            <th style="width:70%">Company</th>
+            <th>Contract</th>
+<th>Country</th>
+</tr>
+<tr>
+    <th>Zidd IAS</th>
+    <th>Zidd Manger</th>
+    <th>India</th>
+</tr>
+
+<tr>
+    <th>The Engineer Bro</th>
+    <th>CEO of the Company</th>
+    <th>India</th>
+</tr>
+    </table>
+
+
+    <table>
+        <tr>
+            <td>name</td>
+            <td>Email
+    
+            </td>
+            <td>Contract</td>
+
+        </tr>
+
+
+    </table>
+
+
+    <table>
+        <tr>
+          <th>Firstname</th>
+          <td>Jill</td>
+          <td>Eve</td>
+        </tr>
+        <tr>
+          <th>Lastname</th>
+          <td>Smith</td>
+          <td>Jackson</td>
+        </tr>
+        <tr>
+          <th>Age</th>
+          <td>94</td>
+          <td>50</td>
+        </tr>
+      </table>
+</body>
+</html>
